@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-family: "Segoe UI Light";
-    margin: 0;
     padding: 0;
+    margin-bottom: 100px;
 }
 
 .navbar {
@@ -25,7 +30,7 @@ body {
     font-weight: bold;
 }
 .navbar li:hover {
-    background-color: rgb(19, 24, 44);
+    background-color: rgb(0, 0, 0);
 }
 
 @media (min-width: 768px) {
@@ -52,7 +57,7 @@ body {
     margin: 20px auto;
     font: 1.8rem 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #333;
+    color: #000000;
     letter-spacing: .5px;
     line-height: 33px;
     text-align: justify;
@@ -66,15 +71,13 @@ body {
     margin-bottom: 50px;
     font: 300 35px 'Raleway', sans-serif;
     letter-spacing: 3px;
-    color: #222;
+    color: #000000;
 }
 
 
 h1 {
     position: relative;
     text-align: center;
-    top: 5%;
-
     color: #000000;
     text-transform: uppercase;
 }
@@ -115,21 +118,12 @@ h2 {
     display: block;
     float: left;
     font-size: 16px;
-    color: #333;
+    color: #000000;
     padding: 0;
 }
 
 
-footer {
-    font-size: 15px;
-    display: block;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    height: 20px;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 4%;
-}
+
 
 .fadeIn {
     animation-name: fadeIn;
@@ -158,7 +152,7 @@ footer {
 
 ul.dropdown-menu {
     position: absolute;
-    background-color: black;
+    background-color: #000000;
     border: 1px solid ;
     text-align: center;
 }
@@ -166,15 +160,83 @@ ul.dropdown-menu {
 ul.dropdown-menu > li > a {
     display: block;
     padding: 1px;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 ul.dropdown-menu > li > a:hover {
-    color: #ffcb4e;
+
 }
 
 ul.navbar > li:hover > ul {
     display: block;
 }
+caption{
+    text-align: center;
+    font-size: 20px;
+}
+
+.header{
+    margin-bottom: 4%;
+}
+
+footer.footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #9da1a6;
+
+    background-color: #141414;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+footer.footer .row {
+    padding-bottom:17px;
+    padding-top: 17px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 
+footer.footer .copyright {
+    color: #FFFFFF;
+}
+
+.author{
+    font-size: 35px;
+    font-weight: bold;
+}
+.date{
+    font-style: italic;
+    font-size: small;
+    color: #9da1a6;
+}
+.news{
+    border-right: black solid;
+    border-bottom: black solid;
+    padding: 5px;
+}
+
+.caption{
+    font-size: 20px;
+
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
