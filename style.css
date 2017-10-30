@@ -3,6 +3,7 @@
 html{
     position: relative;
     min-height: 100%;
+
 }
 
 body {
@@ -70,7 +71,7 @@ body {
     margin: 0 auto;
     margin-bottom: 50px;
     font: 300 35px 'Raleway', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: #000000;
 }
 
