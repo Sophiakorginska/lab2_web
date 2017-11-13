@@ -204,7 +204,16 @@ footer.footer .row {
 footer.footer .copyright {
     color: #FFFFFF;
 }
+.news{
+    text-align: center;
+   padding: 20px;
+    border: solid black;
+    border-radius: 12px;
 
+}
+.picture{
+    width: 50%;
+}
 .author{
     font-size: 35px;
     font-weight: bold;
@@ -214,11 +223,7 @@ footer.footer .copyright {
     font-size: small;
     color: #9da1a6;
 }
-.news{
-    border-right: black solid;
-    border-bottom: black solid;
-    padding: 5px;
-}
+
 
 .caption{
     font-size: 20px;

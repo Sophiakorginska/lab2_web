@@ -60,42 +60,46 @@
 <div class="container">
     <h1 class="header">Додати новину</h1>
     <div class="row">
-    <form id="myForm2">
-        <div class="col-lg-6 col-md-6">
-            <label class="btn btn-default" style="font-weight: bold; margin-bottom: 30px">
-                Додати зображення<input id="addpicture" type="file" style="display: none;">
-            </label>
-            <br>
 
-            <img src="images/gallery-880815_960_720.png" width="60%">
-        </div>
+        <form id="myForm2">
+            <div class="col-lg-6 col-md-6">
+                <label class="btn btn-default" style="font-weight: bold; margin-bottom: 30px">
+                    Додати зображення<input id="addpicture" type="file" style="display: none;">
+                </label>
+                <br>
 
-        <div class="col-lg-6 col-md-4">
-            <div>
-                <input id="caption" type="text" class="form-control" placeholder="Заголовок">
+                    <img id="target" src="images/gallery-880815_960_720.png" width="80%">
+
             </div>
-            <br>
-            <div class="form-group">
-                <textarea id="newstext" class="form-control" rows="13" placeholder="Новина"></textarea>
-            </div>
-            <br>
-            <div class="form-group row">
-                <div class="col-sm-10">
-                    <button type="button" class="btn btn-default" style="font-weight: bold" onclick="addNews();">Відправити</button>
+
+            <div class="col-lg-6 col-md-4">
+                <div>
+                    <input id="caption" type="text" class="form-control" placeholder="Заголовок">
+                </div>
+                <br>
+                <div class="form-group">
+                    <textarea id="newstext" class="form-control" rows="13" placeholder="Новина"></textarea>
+                </div>
+                <br>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="button" class="btn btn-default" style="font-weight: bold" onclick="addNews();">
+                            Відправити
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </form>
+        </form>
 
     </div>
 </div>
 
-
+<script src="admin.js"></script>
 <script src='js/jquery.min.js'></script>
 <script src='js/scroolreveal.js'></script>
 <script src='js/bootstrap.min.js'></script>
 <script src='js/magnific-popup.js'></script>
-<script src="script.js"></script>
+
 
 <footer class="footer">
     <div class="container">

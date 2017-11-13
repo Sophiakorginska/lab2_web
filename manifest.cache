@@ -22,6 +22,7 @@ js/bootstrap.min.js
 js/jquery.min.js
 js/scroolreveal.js
 js/magnific-popup.js
+review.js
 
 FALLBACK:
 /error.html
