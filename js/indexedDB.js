@@ -3,9 +3,6 @@
  */
 var useLocalStorage = true;
 
-var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
-IDBTransaction  = window.IDBTransaction || window.webkitIDBTransaction || window.msIDBTransaction;
-
 var request = indexedDB.open('db', 3);
 
 request.onerror = function (e) {
@@ -14,7 +11,7 @@ request.onerror = function (e) {
 
 request.onsuccess = function(e){
     useLocalStorage = false;
-    db = e.target.result;
+    var db = e.target.result;
 };
 
 request.onupgradeneeded = function(e){
